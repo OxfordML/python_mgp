@@ -55,6 +55,7 @@ mu_star, var_star = mgp.predict(x_star)
 Inputs
 ------
 gp - an instance of GPy.models.GPRegression. Should work with most kernels.
+
 lik_idx - np.ndarray containing indexes of model.param_array
           corresponding to likelihood hps
 
