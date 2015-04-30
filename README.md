@@ -59,4 +59,4 @@ lik_idx - np.ndarray containing indexes of model.param_array
           corresponding to likelihood hps
 
 Ahsan Alvi 2015
-asa<at>robots.ox.ac.uk
+asa[at]robots.ox.ac.uk
