@@ -45,11 +45,12 @@ Usage
 -----
 
 Prediction with the MGP class work similar to GPy.models.GPRegression:
-
->>> gp = GPy.models.GPRegression(X, Y, kern=kernel)
->>> # Provide location of likelihood hps in model.param_array for now
->>> mgp = MGP(gp, lik_idx=np.array([-1]))
->>> mu_star, var_star = mgp.predict(x_star)
+```python
+gp = GPy.models.GPRegression(X, Y, kern=kernel)
+# Provide location of likelihood hps in model.param_array for now
+mgp = MGP(gp, lik_idx=np.array([-1]))
+mu_star, var_star = mgp.predict(x_star)
+```
 
 Inputs
 ------
