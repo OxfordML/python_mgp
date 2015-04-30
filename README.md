@@ -32,6 +32,8 @@ with a Gaussian observation likelihood is assumed.
 This MGP implementation uses numerical gradients, in order to
 allow any choice of kernel(s).
 
+This is research-grade code!
+
 Dependencies
 ------------
 - numpy
